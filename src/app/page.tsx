@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -26,8 +26,6 @@ export default function Home() {
     >
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
-          logoSrc=""
-          logoAlt=""
           brandName="NEON BYTES"
           button={{
             text: "Reserve Table",
@@ -141,8 +139,7 @@ export default function Home() {
               company: "Neural Systems Inc",
               rating: 5,
               imageSrc: "https://pixabay.com/get/g3b838beffe5f6b6f634fd1fa94b9c73fbf99733d60348f17f03deb2672fa8835f83be4ebc0ce3f7e5d97d838eed1eb69ed0460fce855e85fd94d73c924f3ad02_1280.jpg",
-              imageAlt: "Portrait of Alex Chen",
-              testimonial: "Neon Bytes delivers an incredible cyberpunk experience. The neural interface dining is revolutionary!"
+              imageAlt: "Portrait of Alex Chen"
             },
             {
               id: "2",
@@ -151,8 +148,7 @@ export default function Home() {
               company: "Quantum Studios",
               rating: 5,
               imageSrc: "https://pixabay.com/get/g5917ee209475cba6578643ff811b33c5c3b069fc59229f83d2de0726679cf2e6e06593f7207ea06cfa54566d76af2a8338d50e4836398afcd516ead9e19e0e11_1280.jpg",
-              imageAlt: "Portrait of Maya Rodriguez",
-              testimonial: "The VR gaming pods are absolutely amazing. Perfect blend of dining and immersive technology."
+              imageAlt: "Portrait of Maya Rodriguez"
             },
             {
               id: "3",
@@ -161,8 +157,7 @@ export default function Home() {
               company: "Ghost Protocol",
               rating: 5,
               imageSrc: "https://pixabay.com/get/g8e163014e9e8c44d51441223fdb5e64cdd576977603f857b239cf6aadee2eb3cb3605f3995fa2397222e21a0421518c30d3ee6941a3c9ade1b82d11d1e2d6ee4_1280.jpg",
-              imageAlt: "Portrait of Kai Nakamura",
-              testimonial: "This is the future of dining! The molecular gastronomy combined with the cyberpunk aesthetic is unmatched."
+              imageAlt: "Portrait of Kai Nakamura"
             },
             {
               id: "4",
@@ -171,8 +166,7 @@ export default function Home() {
               company: "Neon Dreams Collective",
               rating: 5,
               imageSrc: "https://pixabay.com/get/g157a532887ee456c700d024b33728ddf0d577f1099e4a6fe3ab4adbaef179241b801efc43828849c5484b6d872f40fe109fa23ebc5f1a1b0c1645290c64bce8e_1280.jpg",
-              imageAlt: "Portrait of Zoe Williams",
-              testimonial: "The neon atmosphere and digital art installations create the perfect cyberpunk dining experience."
+              imageAlt: "Portrait of Zoe Williams"
             }
           ]}
         />
